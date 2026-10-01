@@ -1,0 +1,15 @@
+Copyright (c) 2026 Isaza Arenas. Todos los derechos reservados.
+
+Software propietario. Este código y los binarios derivados no pueden ser copiados,
+modificados, distribuidos ni usados sin autorización expresa y por escrito del
+titular. La adquisición de una licencia de uso se rige por los términos acordados
+por escrito con el titular en cada caso.
+
+SPDX-License-Identifier: LicenseRef-Propietario
+
+---
+
+Este producto incluye, como DATO, un catálogo de reglas de detección derivado de
+Gitleaks (Copyright (c) 2019 Zachary Rice), reusado bajo licencia MIT. El texto de
+esa licencia y la atribución correspondiente están en el archivo NOTICE, que se
+distribuye junto a este producto y cuyos términos se conservan íntegros.
