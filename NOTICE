@@ -1,0 +1,14 @@
+chaquen
+Copyright (c) 2026 Juan Carlos Isaza Arenas
+SPDX-License-Identifier: LicenseRef-Propietario
+
+Este producto incluye un catálogo de reglas de detección de secretos
+(`reglas.toml`) derivado del archivo de configuración por defecto de Gitleaks:
+
+    Gitleaks — https://github.com/gitleaks/gitleaks
+    Copyright (c) 2019 Zachary Rice
+    MIT License
+
+El catálogo se reusa como DATO bajo los términos de la licencia MIT de Gitleaks.
+El motor de detección de chaquen es una implementación independiente en Rust; no
+deriva del código de Gitleaks (Go), solo de su catálogo de patrones.
