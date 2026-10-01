@@ -8,6 +8,8 @@ SPDX-License-Identifier: LicenseRef-Propietario
 
 **[🇬🇧 English](#english) · [🇪🇸 Español](#español)**
 
+**🛒 [Get Chaquén — $39 at the Xiliux store →](https://xiliux.lemonsqueezy.com)** · **[Consíguelo en la tienda Xiliux →](https://xiliux.lemonsqueezy.com)**
+
 ---
 
 ## English
