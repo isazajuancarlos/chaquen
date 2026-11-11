@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Juan Carlos Isaza Arenas
+SPDX-FileCopyrightText: 2026 Juan Carlos Isaza
 SPDX-License-Identifier: LicenseRef-Propietario
 -->
 # Chaquén
