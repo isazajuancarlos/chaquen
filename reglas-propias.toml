@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 Juan Carlos Isaza
+# SPDX-License-Identifier: LicenseRef-Propietario
+#
+# Allowlist PROPIA (NO es de gitleaks). Va aparte de `reglas.toml` porque ese
+# archivo es el catálogo vendorizado de gitleaks y dice «do not edit manually»:
+# mezclarle nuestras rutas rompería su procedencia. El `Motor` fusiona estas
+# allowlists con las globales de gitleaks al arrancar.
+#
+# Regla para añadir aquí: solo rutas que NUESTRO flujo sabe que no llevan un
+# secreto NUESTRO. No se allowlistan fixtures propios (`tests/vectors`,
+# `tests/examples`) —podrían esconder una clave real y es mejor triarlos con el
+# marcador `chaquen:allow`—, ni las transcripciones commiteadas —que son un
+# problema de higiene que queremos seguir viendo—.
+
+[[allowlists]]
+description = "vendored cargo deps (Rust): third-party code; gitleaks already skips Go's vendor/ and node_modules, this closes the Rust gap"
+paths = [
+    # Cualquier árbol `vendor/` de cargo (x25519-dalek, syn, x509-cert, windows-sys…).
+    '''(?:^|/)vendor/''',
+]
